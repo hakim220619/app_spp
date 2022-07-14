@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100vw;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.welcome-container {
+    height: 44vw;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-width {
+    width: 80vw;
+}
+
+.welcome-box {
+    padding: 28px;
+    transition: .4s;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #00820F;
+    border-color: #00820F;
+}
+
+.welcome-box:after {
+    transition: all ease-in-out .6s;
+    background: none repeat scroll 0 0 #00820F;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+.welcome-box:hover:after {
+    width: 100%;
+}
+
+.welcome-box:hover, .welcome-box:active {
+    color: #00820F !important;
+    background: white !important;
+}
+
+.welcome-icon-btn {
+    font-size: 100px;
+}
+
+.welcome-btn-text {
+    font-size: 24px;
+}
